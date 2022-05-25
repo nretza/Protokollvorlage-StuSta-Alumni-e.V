@@ -1,0 +1,49 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{ngerman}
+\usepackage{minutes}
+\usepackage{eurosym}
+
+\newcommand{\namesigdate}[2][6cm]{%
+  \begin{tabular}{p{#1}}
+    \\
+    [2\normalbaselineskip] \hrule \\
+    {\small \textit{#2}}
+  \end{tabular}
+}
+
+\begin{document}
+\begin{Protokoll}{StuSta-Alumni e. V.}
+\untertitel{Protokoll der Vorstandssitzung}
+%\moderation{Moderator}
+\protokollant{Protokollant}
+\teilnehmer{teilnehmende Vorstandsmitglieder}
+\gaeste{Gäste}
+\sitzungsdatum{Wochentag, XX.XX.20XX}
+\sitzungsbeginn{XX:XX}
+\sitzungsende{XX:XX}
+\sitzungsort{Sitzungsort}
+%\verteiler{Vereinsmitglieder}
+%\fehlendEntschuldigt{}
+%\fehlendUnentschuldigt{}
+
+\minutesstyle{contents = {true}}
+
+\protokollKopf
+\newpage
+%\setcounter{section}{-1}
+
+\topic{Augnahme neuer Mitglieder}
+Es wird über den Augnahmeantrag von XXXXXX XXXXX debattiert. Dieser wird einstimmig in den Verein aufgenommen.
+
+\topic{Sonstiges}
+\begin{itemize}
+  \item Updates zur Website sollen auf der nächsten Sitzung erfolgen.
+  \item Die nächste Vorstandssitzung soll am XX. XXXX 20XX stattfinden.
+\end{itemize}
+
+
+\end{Protokoll}
+\end{document}
